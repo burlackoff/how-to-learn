@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  position: relative;
+  /* выше установили ограничения для секции */
+}
+  
+.header__title {
+  width: 730px;
+  margin-left: 64px;
+  z-index: 2;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__main-illustration {
+  height: 608px;
+  width: 765px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  background-color: #2f80ed;
+}
