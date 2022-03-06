@@ -10,6 +10,12 @@
     background-color: white;
 }
 
+ul[class],
+li[class] {
+  list-style: none;
+  padding: 0;
+}
+
 /*
 div, section, footer, header {
   border: 1px solid black;
