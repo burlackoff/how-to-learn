@@ -5,9 +5,11 @@
   min-height: 600px;
   max-height: 756px;
   position: relative;
+  background-color: #f2f2f2;
+  overflow: hidden;
   /* выше установили ограничения для секции */
 }
-  
+
 .header__title {
   width: 730px;
   margin-left: 64px;
@@ -39,6 +41,8 @@
   bottom: 0;
   right: 0;
   z-index: 1;
+  background: url(../../images/two_again.png) no-repeat;
+  background-size: cover;
 }
 
 .header__square-pic {
