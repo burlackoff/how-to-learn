@@ -3,19 +3,3 @@
     padding-bottom: 217px;
     background-color: white;
 }
-
-.resources__logo-zone {
-    margin: auto;
-    margin-top: 80px;
-    width: 1100px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.resources__logo {
-    width: 270px;
-    height: 38px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
