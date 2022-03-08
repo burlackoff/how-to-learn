@@ -1,4 +1,6 @@
 .table {
+    list-style: none;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     width: 1100px;
